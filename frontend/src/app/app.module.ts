@@ -1,6 +1,3 @@
-import { ItemDoacaoRead2Component } from './components/itemDoacao/itemDoacao-read2/itemDoacao-read2.component';
-import { ItemDoacaoReadComponent } from './components/itemDoacao/itemDoacao-read/itemDoacao-read.component';
-
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID, Component } from '@angular/core';
 
@@ -17,10 +14,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-import { ItemDoacaoCrudComponent } from './views/itemDoacao-crud/itemDoacao-crud.component';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
-import { ItemDoacaoCreateComponent } from './components/itemDoacao/itemDoacao-create/itemDoacao-create.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule }from '@angular/common/http';
@@ -35,13 +30,11 @@ import { MatSortModule } from '@angular/material/sort';
 
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
-import { ItemDoacaoUpdateComponent } from './components/itemDoacao/itemDoacao-update/itemDoacao-update.component';
-import { ItemDoacaoDeleteComponent } from './components/itemDoacao/itemDoacao-delete/itemDoacao-delete.component';
-import { EventosCrudComponent } from './views/eventos-crud/eventos-crud.component';
-import { EventosCreateComponent } from './components/eventos/eventos-create/eventos-create.component';
-import { EventosDeleteComponent } from './components/eventos/eventos-delete/eventos-delete.component';
-import { EventosReadComponent } from './components/eventos/eventos-read/eventos-read.component';
-import { EventosUpdateComponent } from './components/eventos/eventos-update/eventos-update.component';
+import { ClientesCrudComponent } from './views/clientes-crud/clientes-crud.component';
+import { ClientesCreateComponent } from './components/clientes/clientes-create/clientes-create.component';
+import { ClientesDeleteComponent } from './components/clientes/clientes-delete/clientes-delete.component';
+import { ClientesReadComponent } from './components/clientes/clientes-read/clientes-read.component';
+import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
 
 registerLocaleData(localePt);
 
@@ -52,19 +45,13 @@ registerLocaleData(localePt);
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ItemDoacaoCrudComponent,
     RedDirective,
     ForDirective,
-    ItemDoacaoCreateComponent,
-    ItemDoacaoReadComponent,
-    ItemDoacaoRead2Component,
-    ItemDoacaoUpdateComponent,
-    ItemDoacaoDeleteComponent,
-    EventosCrudComponent,
-    EventosCreateComponent,
-    EventosDeleteComponent,
-    EventosReadComponent,
-    EventosUpdateComponent
+    ClientesCrudComponent,
+    ClientesCreateComponent,
+    ClientesDeleteComponent,
+    ClientesReadComponent,
+    ClientesUpdateComponent
   ],
   imports: [
     BrowserModule,

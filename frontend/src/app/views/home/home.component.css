@@ -85,20 +85,3 @@ p {
 .container>div:nth-of-type(4) {
     grid-column: 3 / 5;
 }
-
-.bg1 {
-    background: url('src/assets/images/14.jpg');
-}
-
-.bg2 {
-    background: url('src/assets/images/38.jpg');
-    color: #333;
-}
-
-.barbearia {
-    background: url('src/assets/images/barbearia.jpg');
-}
-
-.sopao {
-    background: url('src/assets/images/sopaoo.png');
-}

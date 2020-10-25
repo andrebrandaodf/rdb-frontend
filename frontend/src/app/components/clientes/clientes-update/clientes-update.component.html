@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-title>Editar Cadastro de Cliente</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="clientes.nome" name="nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="clientes.cpf" name="cpf">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereço" [(ngModel)]="clientes.endereco" name="endereco">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Telefone" [(ngModel)]="clientes.telefone" name="telefone">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Email" [(ngModel)]="clientes.email" name="email">
+        </mat-form-field>
+
+
+    </form>
+</mat-card>
+
+<button mat-raised-button (click)="updateClientes()">
+    Atualizar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

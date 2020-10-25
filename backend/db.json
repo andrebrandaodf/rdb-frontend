@@ -1,75 +1,135 @@
 {
-  "itemDoacao": [
+  "clientes": [
     {
       "id": 1,
-      "name": "Cobertor",
-      "price": "45.80"
+      "nome": "Beatriz",
+      "cpf": "423.441.133-12",
+      "endereco": {
+        "id": 1,
+        "cep": "72.000-000",
+        "logradouro": "SOF SUL 707/907",
+        "bairro": "SIA ",
+        "cidade": "Brasília",
+        "uf": "DF",
+        "complemento": null
+      },
+      "telefone": "61 91242-8544",
+      "email": "beatriz@gmail.com"
     },
     {
       "id": 2,
-      "name": "Touca",
-      "price": "10.00"
+      "nome": "Gabriela Macedo ",
+      "cpf": "213.142.143-12",
+      "endereco": {
+        "id": 2,
+        "cep": "72.000-000",
+        "logradouro": "Quadra 504 conjunto 10",
+        "bairro": "Samambaia",
+        "cidade": "Brasília",
+        "uf": "DF",
+        "complemento": "casa 10"
+      },
+      "telefone": "61 99902-8544",
+      "email": "gabriela@gmail.com"
     },
     {
-      "name": "Escova de dente",
-      "price": "1.50",
+      "id": 3,
+      "nome": "Heitor Brandão",
+      "cpf": "213.142.143-12",
+      "endereco": {
+        "id": 3,
+        "cep": "72.110-020",
+        "logradouro": "Quadra 504 conjunto 09",
+        "bairro": "Samambaia",
+        "cidade": "Brasília",
+        "uf": "DF",
+        "complemento": "casa 5"
+      },
+      "telefone": "61 98502-8544",
+      "email": "heitormacedo@gmail.com"
+    },
+    {
+      "nome": "André Felipe Pereira Brandão",
+      "cpf": "04685212169",
+      "endereco": "Qr 516 Conjunto 4",
+      "telefone": "6199046132",
+      "email": "Andrebrandaodf@gmail.com",
       "id": 4
     },
     {
-      "name": "Bolacha Água e Sal",
-      "price": "3.50",
+      "nome": "André Felipe",
+      "cpf": "Brandão",
+      "endereco": {
+        "cep": "",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "",
+        "uf": "",
+        "complemento": ""
+      },
+      "telefone": "",
+      "email": "",
       "id": 5
     },
     {
-      "name": "Par de Meias",
-      "price": "10.00",
+      "nome": "João",
+      "cpf": "04685212169",
+      "endereco": {
+        "cep": "",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "",
+        "uf": "",
+        "complemento": ""
+      },
+      "telefone": "",
+      "email": "",
       "id": 6
     },
     {
-      "name": "Papel Higiênico",
-      "price": "7.99",
+      "nome": "André Felipe",
+      "cpf": "23236492805",
+      "endereco": {
+        "cep": "",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "",
+        "uf": "",
+        "complemento": ""
+      },
+      "telefone": "",
+      "email": "",
       "id": 7
     },
     {
-      "name": "Detergente",
-      "price": "1.99",
+      "nome": "Gabriela Macedo Varela Brandão",
+      "cpf": "111.111.222-05",
+      "endereco": {
+        "cep": "",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "",
+        "uf": "",
+        "complemento": ""
+      },
+      "telefone": "",
+      "email": "",
       "id": 8
     },
     {
-      "name": "Pasta de Dente",
-      "price": "3.05",
+      "nome": "Heitor",
+      "cpf": "123.123.123-45",
+      "endereco": {
+        "cep": "",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "",
+        "uf": "",
+        "complemento": ""
+      },
+      "telefone": "",
+      "email": "",
       "id": 9
-    },
-    {
-      "name": "Preservativo",
-      "price": "6.90",
-      "id": 10
-    },
-    {
-      "name": "Absorvente",
-      "price": "15.99",
-      "id": 11
-    },
-    {
-      "name": "Saco preto ",
-      "price": "10.00",
-      "id": 12
-    }
-  ],
-  "eventos": [
-    {
-      "name": "Entrega de agasalhos",
-      "status": "Encerrado",
-      "description": "20/07/2020 ",
-      "id": 1,
-      "address": "Butantã"
-    },
-    {
-      "name": "Kits higienicos",
-      "description": "20/09/2020",
-      "address": "AV. Paulista",
-      "status": "Ativo",
-      "id": 5
     }
   ]
 }
